@@ -854,7 +854,7 @@ h1 img {
 }
 
 #features .feature {
-  background-color: #121212;
+  background-color: rgba(103, 101, 101, 0.58);
   padding: 20px 0;
   border-radius: 10px;
   margin-bottom: 25px;

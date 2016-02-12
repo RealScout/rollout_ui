@@ -27,8 +27,8 @@
 
 <div class="col">
   <form accept-charset="UTF-8" action="<%= url_path("#{feature.name}/update") %>" class="users_form" data-remote="true" method="post">
-    <label>Add User ID</label>
-    <input class="users" type="text" name="users[]" value="<%= feature.user_ids.join(",") %>" data-placeholder="Enter User ID" />
+    <label>Add Agent ID</label>
+    <input class="users" type="text" name="users[]" value="<%= feature.user_ids.join(",") %>" data-placeholder="Enter Agent ID" />
     <input type="submit" value="Save" />
   </form>
 </div>
