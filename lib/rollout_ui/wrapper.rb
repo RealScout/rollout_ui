@@ -22,7 +22,7 @@ module RolloutUi
     end
 
     def features
-      features = redis.smembers(:features)
+      features = @rollout.features
       features ? features.sort : []
     end
 
